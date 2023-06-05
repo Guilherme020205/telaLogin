@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>login</title>
+</head>
+
+<body>
+    
+    <div class="box">
+        <div class="boxLogin">
+            <h1>Login</h1>
+            <form>
+                <p class="email">
+                    <label for="email"> email </label>
+                    <input type="text" placeholder="ex: @gmail.com" required>
+                </p>
+
+                <p class="senha">
+                    <label for="senha"> senha </label>
+                    <input type="password" id="senha" placeholder="ex: admin123" required>
+                </p>
+                <p class="MostrarSenha">
+                    <input type="checkbox" onclick="MostrarSenha()">Mostrar Senha
+                </p>
+
+                <p class="login">
+                    <button type="submit">login</button>
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
